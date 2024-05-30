@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A704AF702C08AD1F00E460BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704AF6F2C08AD1F00E460BC /* AppDelegate.swift */; };
+		A704AF722C08AD1F00E460BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704AF712C08AD1F00E460BC /* SceneDelegate.swift */; };
+		A704AF742C08AD1F00E460BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704AF732C08AD1F00E460BC /* ViewController.swift */; };
+		A704AF7A2C08AD1F00E460BC /* Pododoc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A704AF782C08AD1F00E460BC /* Pododoc.xcdatamodeld */; };
+		A704AF7C2C08AD2000E460BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A704AF7B2C08AD2000E460BC /* Assets.xcassets */; };
+		A704AF7F2C08AD2000E460BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A704AF7E2C08AD2000E460BC /* Base */; };
+		A704AF8D2C08B11900E460BC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A704AF8C2C08B11900E460BC /* SnapKit */; };
+		A704AF8F2C08B11900E460BC /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = A704AF8E2C08B11900E460BC /* SnapKit-Dynamic */; };
+		A704AF922C08B19E00E460BC /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = A704AF912C08B19E00E460BC /* Then */; };
+		A704AF952C08B35700E460BC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704AF942C08B35700E460BC /* ViewModel.swift */; };
+		A704AF972C08B36100E460BC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704AF962C08B36100E460BC /* Model.swift */; };
+		A704AF9A2C08B39100E460BC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704AF992C08B39100E460BC /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A704AF6C2C08AD1F00E460BC /* Pododoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pododoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A704AF6F2C08AD1F00E460BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A704AF712C08AD1F00E460BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A704AF732C08AD1F00E460BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A704AF792C08AD1F00E460BC /* Pododoc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pododoc.xcdatamodel; sourceTree = "<group>"; };
+		A704AF7B2C08AD2000E460BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A704AF7E2C08AD2000E460BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A704AF802C08AD2000E460BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A704AF862C08AE0F00E460BC /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		A704AF942C08B35700E460BC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A704AF962C08B36100E460BC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A704AF992C08B39100E460BC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A704AF692C08AD1F00E460BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A704AF8D2C08B11900E460BC /* SnapKit in Frameworks */,
+				A704AF922C08B19E00E460BC /* Then in Frameworks */,
+				A704AF8F2C08B11900E460BC /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A704AF632C08AD1F00E460BC = {
+			isa = PBXGroup;
+			children = (
+				A704AF6E2C08AD1F00E460BC /* Pododoc */,
+				A704AF6D2C08AD1F00E460BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A704AF6D2C08AD1F00E460BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF6C2C08AD1F00E460BC /* Pododoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A704AF6E2C08AD1F00E460BC /* Pododoc */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF8A2C08AE8000E460BC /* Application */,
+				A704AF892C08AE2D00E460BC /* Model */,
+				A704AF882C08AE2900E460BC /* ViewModel */,
+				A704AF872C08AE2700E460BC /* View */,
+				A704AF982C08B36A00E460BC /* Extension */,
+				A704AF9B2C08B3D600E460BC /* Resource */,
+				A704AF7D2C08AD2000E460BC /* LaunchScreen.storyboard */,
+				A704AF802C08AD2000E460BC /* Info.plist */,
+				A704AF782C08AD1F00E460BC /* Pododoc.xcdatamodeld */,
+				A704AF862C08AE0F00E460BC /* Config.xcconfig */,
+			);
+			path = Pododoc;
+			sourceTree = "<group>";
+		};
+		A704AF872C08AE2700E460BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF732C08AD1F00E460BC /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A704AF882C08AE2900E460BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF942C08B35700E460BC /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A704AF892C08AE2D00E460BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF962C08B36100E460BC /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A704AF8A2C08AE8000E460BC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF712C08AD1F00E460BC /* SceneDelegate.swift */,
+				A704AF6F2C08AD1F00E460BC /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A704AF982C08B36A00E460BC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF992C08B39100E460BC /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A704AF9B2C08B3D600E460BC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A704AF7B2C08AD2000E460BC /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A704AF6B2C08AD1F00E460BC /* Pododoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A704AF832C08AD2000E460BC /* Build configuration list for PBXNativeTarget "Pododoc" */;
+			buildPhases = (
+				A704AF682C08AD1F00E460BC /* Sources */,
+				A704AF692C08AD1F00E460BC /* Frameworks */,
+				A704AF6A2C08AD1F00E460BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pododoc;
+			packageProductDependencies = (
+				A704AF8C2C08B11900E460BC /* SnapKit */,
+				A704AF8E2C08B11900E460BC /* SnapKit-Dynamic */,
+				A704AF912C08B19E00E460BC /* Then */,
+			);
+			productName = Pododoc;
+			productReference = A704AF6C2C08AD1F00E460BC /* Pododoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A704AF642C08AD1F00E460BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A704AF6B2C08AD1F00E460BC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A704AF672C08AD1F00E460BC /* Build configuration list for PBXProject "Pododoc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A704AF632C08AD1F00E460BC;
+			packageReferences = (
+				A704AF8B2C08B11900E460BC /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A704AF902C08B19E00E460BC /* XCRemoteSwiftPackageReference "Then" */,
+				A704AF932C08B24F00E460BC /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = A704AF6D2C08AD1F00E460BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A704AF6B2C08AD1F00E460BC /* Pododoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A704AF6A2C08AD1F00E460BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A704AF7C2C08AD2000E460BC /* Assets.xcassets in Resources */,
+				A704AF7F2C08AD2000E460BC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A704AF682C08AD1F00E460BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A704AF952C08B35700E460BC /* ViewModel.swift in Sources */,
+				A704AF7A2C08AD1F00E460BC /* Pododoc.xcdatamodeld in Sources */,
+				A704AF9A2C08B39100E460BC /* Extension.swift in Sources */,
+				A704AF742C08AD1F00E460BC /* ViewController.swift in Sources */,
+				A704AF972C08B36100E460BC /* Model.swift in Sources */,
+				A704AF702C08AD1F00E460BC /* AppDelegate.swift in Sources */,
+				A704AF722C08AD1F00E460BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A704AF7D2C08AD2000E460BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A704AF7E2C08AD2000E460BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A704AF812C08AD2000E460BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A704AF822C08AD2000E460BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A704AF842C08AD2000E460BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A704AF862C08AE0F00E460BC /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pododoc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dogaegirl6mo.Pododoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A704AF852C08AD2000E460BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A704AF862C08AE0F00E460BC /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pododoc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dogaegirl6mo.Pododoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A704AF672C08AD1F00E460BC /* Build configuration list for PBXProject "Pododoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A704AF812C08AD2000E460BC /* Debug */,
+				A704AF822C08AD2000E460BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A704AF832C08AD2000E460BC /* Build configuration list for PBXNativeTarget "Pododoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A704AF842C08AD2000E460BC /* Debug */,
+				A704AF852C08AD2000E460BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A704AF8B2C08B11900E460BC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		A704AF902C08B19E00E460BC /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		A704AF932C08B24F00E460BC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A704AF8C2C08B11900E460BC /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A704AF8B2C08B11900E460BC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A704AF8E2C08B11900E460BC /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A704AF8B2C08B11900E460BC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		A704AF912C08B19E00E460BC /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A704AF902C08B19E00E460BC /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A704AF782C08AD1F00E460BC /* Pododoc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A704AF792C08AD1F00E460BC /* Pododoc.xcdatamodel */,
+			);
+			currentVersion = A704AF792C08AD1F00E460BC /* Pododoc.xcdatamodel */;
+			path = Pododoc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A704AF642C08AD1F00E460BC /* Project object */;
+}
